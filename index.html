@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>NCSI服务介绍</title>
+  <style>
+    body {
+      background: linear-gradient(45deg, #00c6ff, #0072ff);
+      font-family: Arial, sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #007bff;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #f5f5f5;
+      padding: 10px;
+      text-align: right;
+    }
+
+    /* 右上角的链接样式 */
+    .github-link {
+      color: #007bff;
+      text-decoration: none;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>NCSI服务介绍</h1>
+  </header>
+
+  <main>
+    <p>
+      NCSI（Network Connectivity Status Indicator）是微软操作系统中的一个组件，用于检测网络连接状态。它通过发送 HTTP 请求和解析响应的方式，判断计算机是否能够成功访问特定的 URL，并据此判断网络连接的畅通程度。
+    </p>
+
+    <p>
+      NCSI 通过访问一个名为“ncsi.txt”的文件来检测网络连接状态。如果访问成功并返回预期的响应内容，NCSI 将判断网络连接正常；否则，它将判断网络连接存在问题。
+    </p>
+
+    <p>
+      通过 NCSI 服务，操作系统可以在用户界面上显示网络连接状态的指示符。这有助于用户了解计算机是否能够正常连接到互联网，以及网络连接的质量如何。
+    </p>
+  </main>
+
+  <footer>
+    <a href="https://github.com/KelsAstell/ncsi" class="github-link">Github</a>
+    <p>仓库</p>
+  </footer>
+</body>
+
+</html>
